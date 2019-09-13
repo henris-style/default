@@ -1,18 +1,17 @@
 $output-css: false !default; //
 $output-full: false !default; //
 $output-debug: true !default; //
-$output-debug-image-alt: true !default; //
-$output-debug-input-type: true !default; //
-$output-debug-target-blank: true !default; //
-$output-debug-summary-first: true !default; //
-$output-debug-legend-first: true !default; //
-$output-debug-abbr-title: true !default; //
-$output-debug-javascript-link: true !default; //
-$output-debug-detail-list-children: true !default; //
-$output-debug-figcaption: true !default; //
-$output-debug-div: true !default; //
-$output-debug-list: true !default; //
-$output-debug-bad-compute: true !default; //
+$output-debug-full: true !default; //
+$output-debug-abbr: false !default; //
+$output-debug-bad-compute: false !default; //
+$output-debug-details: false !default; //
+$output-debug-figcaption: false !default; //
+$output-debug-form: false !default; //
+$output-debug-image: true !default; //
+$output-debug-layout: false !default; //
+$output-debug-legend: false !default; //
+$output-debug-link: false !default; //
+$output-debug-list: false !default; //
 $output-background-colors: true !default; //
 $output-text-colors: true !default; //
 $output-custom-properties: true !default; //
@@ -121,18 +120,17 @@ $output: (
 	"css": false, 
 	"full": false, 
 	"debug": true, 
-	"debug-image-alt": true, 
-	"debug-input-type": true, 
-	"debug-target-blank": true, 
-	"debug-summary-first": true, 
-	"debug-legend-first": true, 
-	"debug-abbr-title": true, 
-	"debug-javascript-link": true, 
-	"debug-detail-list-children": true, 
-	"debug-figcaption": true, 
-	"debug-div": true, 
-	"debug-list": true, 
-	"debug-bad-compute": true, 
+	"debug-full": true, 
+	"debug-abbr": false, 
+	"debug-bad-compute": false, 
+	"debug-details": false, 
+	"debug-figcaption": false, 
+	"debug-form": false, 
+	"debug-image": true, 
+	"debug-layout": false, 
+	"debug-legend": false, 
+	"debug-link": false, 
+	"debug-list": false, 
 	"background-colors": true, 
 	"text-colors": true, 
 	"custom-properties": true, 
