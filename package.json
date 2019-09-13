@@ -42,7 +42,7 @@
     "stylelint-order": "^2.0.0"
   },
   "dependencies": {
-    "@henris/output": "0.0.4",
+    "@henris/output": "0.0.6",
     "@henris/utils": "0.0.5"
   }
 }
